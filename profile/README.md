@@ -1,6 +1,6 @@
 ## Welcome to Floss 👋
 
-Floss is the home of various open source libs put together at Dentech to make our Golang development of microservices on GCP and Cloud Run a breeze. These libs provide all the common and reusable boilerplate code for the microservices we build and run on Cloud Run, utilizing mature and stable tech/libs such as gRPC, Watermill, Zap, GORM and OpenTelemetry to integrate with GCP infrastructure such as Cloud SQL, Pub/Sub, Cloud Logging and Error Reporting.
+Floss is the home of various open source libs put together at Dentech to make our Golang development of microservices on GCP and Cloud Run a breeze. These libs provide all the common and reusable boilerplate functionality that we need for the microservices we build and run on Cloud Run, utilizing mature and stable tech/libs such as gRPC, Watermill, Zap, GORM and OpenTelemetry to integrate with GCP infrastructure such as Cloud SQL, Pub/Sub, Cloud Logging and Error Reporting.
 
 This is no framework in any way, just standalone and independent libs that each provide support for recurring boilerplate needed when building event-driven and observable microservices on GCP and Cloud Run using Golang.
 

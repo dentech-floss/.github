@@ -20,7 +20,7 @@ So everything related to messaging in Floss is built around the *Publisher* and 
 
 ### Observability
 
-To get insight in our system we've opted in for relying on [OpenTelemetry](https://opentelemetry.io/) and pretty much instrument every Floss lib that is possible to instrument in order to get rich support for tracing using an otel compatible APM of choice. The tracing is setup and enabled by the [dentech-floss/telemetry](https://github.com/dentech-floss/telemetry) lib at least these libs come preconfigured with support for OpenTelemetry:
+To get insight in our system we've opted in for relying on [OpenTelemetry](https://opentelemetry.io/) and pretty much instrument every Floss lib that is possible to instrument in order to get rich support for tracing using an otel compatible APM of choice. The tracing is setup and enabled by the [dentech-floss/telemetry](https://github.com/dentech-floss/telemetry) lib and at least these libs come preconfigured with support for OpenTelemetry:
 
 * [dentech-floss/server](https://github.com/dentech-floss/server)
 * [dentech-floss/logging](https://github.com/dentech-floss/logging)
